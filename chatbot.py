@@ -32,26 +32,26 @@ def get_answer_for_question(question:str, knowledge_base:dict) -> str | None:
         if q['question']==question:
             return q['answer']
 
-def chat_bot():
-    # loading the data
-    knowledge_base:dict = load_knowledge_base('knowledge_base1.json')
+# def chat_bot():
+#     # loading the data
+#     knowledge_base:dict = load_knowledge_base('knowledge_base1.json')
 
-    while True:
-        user_input:str = input('You: ')
-        if user_input.lower()=='quit':
-            break
+#     while True:
+#         user_input:str = input('You: ')
+#         if user_input.lower()=='quit':
+#             break
             
-        # this will look for the best match inside of our json file
-        best_match:str|None = find_best_match(user_input, [q['question'] for q in knowledge_base['questions']])
+#         # this will look for the best match inside of our json file
+#         best_match:str|None = find_best_match(user_input, [q['question'] for q in knowledge_base['questions']])
 
-        if best_match:
-            answer:str = get_answer_for_question(best_match, knowledge_base)
-            print('Bot: ', answer)
-        else:
-            print("Bot: I don't know the answer, can you teach me?")
-            new_answer:str = input('type the answer or "skip" to skip')
+#         if best_match:
+#             answer:str = get_answer_for_question(best_match, knowledge_base)
+#             print('Bot: ', answer)
+#         else:
+#             print("Bot: I don't know the answer, can you teach me?")
+#             new_answer:str = input('type the answer or "skip" to skip')
 
-            if new_answer.lower() != 'skip':
-                knowledge_base['questions'].append({'question': user_input, 'answer': new_answer})
-                save_knowledge_base('knowledge_base.json', knowledge_base)
-                print('thank you I have learnt something new!')
+#             if new_answer.lower() != 'skip':
+#                 knowledge_base['questions'].append({'question': user_input, 'answer': new_answer})
+#                 save_knowledge_base('knowledge_base.json', knowledge_base)
+#                 print('thank you I have learnt something new!')
