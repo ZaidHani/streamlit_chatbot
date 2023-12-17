@@ -8,6 +8,7 @@ import random
 import tensorflow as tf
 
 nltk.download('punkt')
+nltk.download('wordnet')
 
 # reading the data
 df =open('intents.json', encoding='utf-8').read()
