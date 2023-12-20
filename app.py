@@ -30,25 +30,6 @@ the_word_bot = '<h4>Bot: </h4>'
 st.markdown(f'{the_word_bot}', unsafe_allow_html=True)
 typewriter(result, 10)
 
-#st.title("About Data Science Chatbot")
-
-
-
-# might delete that
-st.header("How to Use the Chatbot")
-
-st.markdown(
-        """
-        1. **Ask Questions:** Simply type your data science-related questions into the chatbox on the left side of the page.
-        The chatbot will do its best to provide helpful and informative responses.
-
-        2. **Feedback:** Your feedback is valuable! If you have suggestions, encounter issues, or want to share your thoughts, 
-        use the feedback form provided.
-
-        3. **Explore Examples:** Check out the provided examples to see how to use various data science tools and techniques.
-        """
-    )
-
 st.header("Important Notes")
 
 st.markdown(
@@ -57,13 +38,6 @@ st.markdown(
 
         - The chatbot's responses are based on pre-existing knowledge up to its last training cut-off. It may not have 
         real-time information on the latest developments.
-
-        - The code snippets provided are for educational purposes. Always review and adapt them based on your specific 
-        use case and requirements.
-
-        - Your privacy is important. Avoid sharing sensitive or personal information in the chat.
-
-        - Have fun exploring the world of data science with the chatbot!
         """
     )
 
@@ -72,34 +46,26 @@ st.header("Feedback and Support")
 st.markdown(
         """
         Your feedback is essential for improving the chatbot. If you encounter issues, have suggestions, or want to share your experience,
-        please use the feedback form provided in the app.
+        please contact us on LinkeIn.
 
         Thank you for using the Data Science Chatbot! Happy learning!
         """)
-footer="""<style>
-a:link , a:visited{
-background-color: transparent;
-text-decoration: underline;
-}
 
-a:hover,  a:active {
-background-color: transparent;
-text-decoration: underline;
-}
-
-.footer {
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-text-align: center;
-}
-</style>
-<div class="footer">
-<p>For Feedback: 
-<a href="https://www.linkedin.com/in/zaid-allwansah/" target="_blank">Zaid</a> |
-<a href="https://www.linkedin.com/in/layan-bilbeisi/" target="_blank">Layan</a>
-</p>
-</div>
+footer="""
+    <style>
+        .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        }
+    </style>
+    <div class="footer">
+        <p>For Feedback: 
+            <a href="https://www.linkedin.com/in/zaid-allwansah/" target="_blank">Zaid</a> |
+            <a href="https://www.linkedin.com/in/layan-bilbeisi/" target="_blank">Layan</a>
+        </p>
+    </div>
 """
 st.markdown(footer, unsafe_allow_html=True)

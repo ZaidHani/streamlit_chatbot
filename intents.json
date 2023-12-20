@@ -9,7 +9,8 @@
         "what's up",
         "anybody here",
         "good day",
-        "Evening"
+        "Evening",
+        ""
       ],
       "responses": [ "Hello!", "Hi there, how can I help you today?", "Feel free to ask me anything", "Ask me about Data Science!" ]
     },
@@ -37,12 +38,15 @@
       "responses": [ "Happy to help!", "You're welcome!", "Feel free to ask me again", "Anytime!", "My pleasure" ]
     },
     {
-      "tag": "data Science",
+      "tag": "data science",
       "patterns": [
         "How is data science applied in real-world scenarios?",
         "Give me examples of data science applications.",
         "In what industries is data science most commonly used?",
-        "Tell me about the role of data scientists."
+        "Tell me about the role of data scientists.",
+        "data science",
+        "what is data science?",
+        "tell me about data sciece"
       ],
       "responses": [
         "Data science finds applications in various industries, such as finance, healthcare, marketing, and technology.",
@@ -89,7 +93,9 @@
       "tag": "Identity",
       "patterns": [
         "Who are you",
-        "what are you"
+        "what are you",
+        "who is you",
+        "what is your purpose"
       ],
       "responses": [
         "I am a chatbot that was made to provide you with info about data science",
@@ -128,7 +134,9 @@
         "contact creator",
         "contact zaid",
         "speak to developers",
-        "talk to programmers"
+        "talk to programmers",
+        "zaid",
+        "layan"
       ],
       "responses": [
         "You can contact my creators at theirs Linkedin profiles Zaid : https://www.linkedin.com/in/zaid-allwansah-a09412227/ \n Layan : https://www.linkedin.com/in/layan-bilbeisi/"
@@ -139,7 +147,10 @@
       "patterns": [
         "what is data",
         "how is data used",
-        "data"
+        "data",
+        "tell me about data",
+        "dataa",
+        "dataaa"
       ],
       "responses": [ "Data is facts and statistics collected together for reference or analysis, data is collected by a lot of different sources, like the web or sensory devices" ]
     },
@@ -155,37 +166,31 @@
       ]
     },
     {
-      "tag": "Data Science",
-      "patterns": [
-        "what is data science?",
-        "tell me about data science",
-        "data science",
-        "explain data science"
-      ],
-      "responses": [ "Data science is a multidisciplinary field that involves the use of scientific methods, processes, algorithms, and systems to extract meaningful insights and knowledge from structured and unstructured data." ]
-    },
-
-    {
       "tag": "data engineering",
       "patterns": [
-        "whta is data engineering",
+        "what is data engineering",
         "tell me about data engineering",
         "defention of data engineering",
         "data engineering",
-        "data engineer"
+        "data engineer",
+        "engineering"
       ],
       "responses": [ "Data engineering is a field within data science that focuses on the practical application of data collection and processing" ]
     },
     {
       "tag": "data analysis",
       "patterns": [
-        "what is data analysis",
+        "what is analysis",
         "defention of data analysis",
         "explain data analysis",
         "tell me about data analysis",
         "data analysis"
       ],
-      "responses": [ "Data analysis is the process of inspecting, cleaning, transforming, and modeling data with the goal of discovering useful information, drawing conclusions, and supporting decision-making." ]
+      "responses": [ "Data analysis is the process of inspecting, cleaning, transforming, and modeling data with the goal of discovering useful information, drawing conclusions, and supporting decision-making.",
+                     "Data Analysis is the process of systematically applying statistical and/or logical techniques to describe and illustrate, condense and recap, and evaluate data.",
+                     "Data analytics converts raw data into actionable insights. It includes a range of tools, technologies, and processes used to find trends and solve problems by using data. Data analytics can shape business processes, improve decision-making, and foster business growth.",
+                     "Data analytics is the science of analyzing raw data to make conclusions about information. Many of the techniques and processes of data analytics have been automated into mechanical processes and algorithms that work over raw data for human consumption."
+      ]
     },
     {
       "tag": "salary",
@@ -211,7 +216,7 @@
     {
       "tag": "data cleaning",
       "patterns": [
-        "what is data cleaning",
+        "what is cleaning",
         "how to do data cleaning",
         "data cleaning",
         "Why is data cleaning important in data science?",
@@ -231,7 +236,7 @@
       "tag": "data preporcessing",
       "patterns": [
         "what is data preprocessing",
-        "how to do it"
+        "how to do data processing"
       ],
       "responses": [ " is a crucial step in the data analysis and machine learning pipeline. It involves cleaning and transforming raw data into a format that is suitable for analysis or for training machine learning models." ]
     },
@@ -313,10 +318,11 @@
     {
       "tag": "data visualization",
       "patterns": [
-        "what is data visualization",
+        "what is visualization",
         "tell me more about data visualization",
         "explain data visualization",
-        "data visualization"
+        "data visualization",
+        "visualization"
       ],
       "responses": [ "Data visualization is the representation of data in graphical or pictorial formats to help people understand, interpret, and derive insights from complex datasets." ]
     },
@@ -431,7 +437,9 @@
         "what is Data Warehousing",
         "Data Warehousing",
         "explain Data Warehousing",
-        "tell me about Data Warehousing"
+        "tell me about Data Warehousing",
+        "warehousing data",
+        "warehouse"
       ],
       "responses": [ "Data warehousing is a process of collecting, storing, and managing large volumes of data from various sources to support business intelligence (BI) and analytical reporting." ]
     },
@@ -539,15 +547,6 @@
       "responses": [ "Web scraping is the process of extracting data from websites. It involves fetching the HTML of a web page, parsing it, and extracting the desired information." ]
     },
     {
-      "tag": "Data Engineering",
-      "patterns": [
-        "what is Data Engineering",
-        "tell me about Data Engineering",
-        "explain Data Engineering"
-      ],
-      "responses": [ "Data engineering is a field of study and practice that focuses on designing, developing, and managing the architecture, tools, and systems for collecting, storing, processing, and analyzing data." ]
-    },
-    {
       "tag": "company in data science",
       "patterns": [ "what is the company work in data science in jordan" ],
       "responses": [
@@ -558,15 +557,6 @@
         "Shai for Ai",
         "big 4 organization (pwc, E&Y, KMPG, Deloitte) "
       ]
-    },
-    {
-      "tag": "Data Analysis",
-      "patterns": [
-        "what is Data Analysis",
-        "tell me about Data Analysis",
-        "explain Data Analysis"
-      ],
-      "responses": [ "Data analysis is the process of inspecting, cleaning, transforming, and modeling data to discover useful information, draw conclusions, and support decision-making." ]
     },
     {
       "tag": "Youtube Channels Data analysis",
@@ -1148,21 +1138,6 @@
       ]
     },
     {
-      "tag": "data analysis",
-      "patterns": [
-        "what is data analysis",
-        "data analysis",
-        "data analyst",
-        "analyzing data",
-        "data analytics"
-      ],
-      "responses": [
-        "Data Analysis is the process of systematically applying statistical and/or logical techniques to describe and illustrate, condense and recap, and evaluate data.",
-        "Data analytics converts raw data into actionable insights. It includes a range of tools, technologies, and processes used to find trends and solve problems by using data. Data analytics can shape business processes, improve decision-making, and foster business growth.",
-        "Data analytics is the science of analyzing raw data to make conclusions about information. Many of the techniques and processes of data analytics have been automated into mechanical processes and algorithms that work over raw data for human consumption."
-      ]
-    },
-    {
       "tag": "outliers",
       "patterns": [
         "tell me about outliers",
@@ -1231,6 +1206,58 @@
         "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming.",
         "Python is a popular general-purpose programming language that can be used for a wide variety of applications. It includes high-level data structures, dynamic typing, dynamic binding, and many more features that make it as useful for complex application development as it is for scripting or glue code that connects components together. It can also be extended to make system calls to almost all operating systems and to run code written in C or C++. Due to its ubiquity and ability to run on nearly every system architecture, Python is a universal language found in a variety of different applications.",
         "Python is a popular programming language and most data scientists use it on a dayly basis for it's simplicity and wide varity of libraries and modules"
+      ]
+    },
+    {
+      "tag": "data normalization",
+      "patterns":[
+        "what is data normalization",
+        "data normalization",
+        "normalization in data",
+        "normalization"
+      ],
+      "responses":[
+        "Data normalization is the process of reorganizing data within a database so that users can utilize it for further queries and analysis. Simply put, it is the process of developing clean data. This includes eliminating redundant and unstructured data and making the data appear similar across all records and fields.",
+        "Data normalization can be defined as a process designed to facilitate a more cohesive form of data entry, essentially ‘cleaning’ the data. When you normalize a data set, you are reorganizing it to remove any unstructured or redundant data to enable a superior, more logical means of storing that data. The main goal of data normalization is to achieve a standardized data format across your entire system. This allows the data to be queried and analyzed more easily which can lead to better business decisions."
+      ]
+    },
+    {
+      "tag": "pattern recognition",
+      "patterns": [
+        "Can you recognize patterns?",
+        "Tell me about your pattern recognition abilities",
+        "How do you identify patterns?"
+      ],
+      "responses": [
+        "Yes, I am capable of pattern recognition. It involves identifying regularities or trends in data.",
+        "I have the ability to recognize patterns by analyzing and finding relationships in information.",
+        "Pattern recognition is one of my strengths. I can identify and interpret patterns in various types of data."
+      ]
+    },
+    {
+      "tag": "data encoding",
+      "patterns": [
+        "How does data encoding work?",
+        "Explain the concept of data encoding",
+        "Tell me about different types of data encoding"
+      ],
+      "responses": [
+        "Data encoding is the process of converting data from one form to another for efficient transmission or storage.",
+        "In data encoding, information is transformed into a coded format to ensure secure and accurate transfer.",
+        "There are various types of data encoding, including base64, UTF-8, and ASCII, each serving different purposes in encoding information."
+      ]
+    },
+    {
+      "tag": "data scaling",
+      "patterns": [
+        "What is data scaling in the context of machine learning?",
+        "Explain the importance of data scaling in data preprocessing",
+        "How does data scaling affect model performance?"
+      ],
+      "responses": [
+        "In machine learning, data scaling is the process of normalizing or standardizing the features of a dataset to a consistent range.",
+        "Data scaling is crucial in data preprocessing as it helps in preventing certain features from dominating others, ensuring fair and effective model training.",
+        "Data scaling can significantly impact model performance by improving convergence speed and helping algorithms that rely on distance measures or gradients perform better."
       ]
     }
   ]
